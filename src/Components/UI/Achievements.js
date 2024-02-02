@@ -1,13 +1,10 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import data from "../../assets/data/achievementsData";
-
-
-
 
 
 const Achievements = () => {
     const [nextItems, setNextItems] = useState(6);
-    const [achieved, setAchievements] = useState(data);
+    const [achieved] = useState(data);
 
 
     const viewMoreHandler = () => {
