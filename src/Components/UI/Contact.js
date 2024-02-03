@@ -5,7 +5,7 @@ const Contact = () => {
         <section id="contact" className="mt-0">
             <div className="container">
                 <h2 data-aos="fade-down" data-aos-duration="1500"
-                    className="pt-0 text-hOneColor flex items-center justify-center
+                    className="pt-0 text-headingText flex items-center justify-center
                                text-[2.5rem] font-[700] mt-30 mb-4">
                     Reach Out
                 </h2>
@@ -15,7 +15,7 @@ const Contact = () => {
                                 grow relative">
                     <div className="w-full mt-8 md:mt-0 md:w-1/2 h-auto sm:h-[450px]
                                     lg:flex items-center
-                                    bg-indigo-100
+                                    bg-secondaryAccent
                                     px-4 lg:px-8 py-4
                                     bg-opacity-40">
                         <form className="w-full pt-3">
@@ -53,7 +53,9 @@ const Contact = () => {
                                 <button className="w-full p-2 focus-outline-none rounded-[5px]
                                     bg-smallText font-[600]
                                     text-headingText
-                                    text-center ease-linear duration-150">
+                                    text-center ease-linear duration-150
+                                    hover:text-primaryAccent
+                                    hover:bg-secondaryAccent">
 
                                     Submit Message
                                 </button>

@@ -40,7 +40,7 @@ const Hobbies = () => {
     return(
         <section id="hobbies">
             <div className="container">
-                <div className="flex items-center justify-between flex-wrap">
+                <div className="flex sm:items-center items-center justify-between flex-wrap">
                     <div className="mb-7 sm:mb-0">
                         <h3 className="text-headingText text-[2rem] font-[700] drop-shadow">
                             My Hobbies...
@@ -49,21 +49,21 @@ const Hobbies = () => {
 
                     <div className="flex gap-3">
                         <button onClick={() => setSelectTab('books')}
-                                className="text-newDarkAccent border border-solid border-newSmallText
-                        py-2 px-4 rounded-[8px] hover:bg-newDarkAccent hover:border-newNeonAccent
-                        hover:text-white ease-in duration-300 drop-shadow">
+                                className="text-smallText border border-solid border-secondaryAccent
+                        py-2 px-4 rounded-[8px] hover:bg-secondaryAccent
+                        hover:text-primaryAccent ease-in duration-300 drop-shadow">
                             Books
                         </button>
                         <button onClick={() => setSelectTab('movies')}
-                                className="text-newDarkAccent border border-solid border-newSmallText
-                        py-2 px-4 rounded-[8px] hover:bg-newDarkAccent hover:border-newNeonAccent
-                        hover:text-white ease-in duration-300 drop-shadow">
+                                className="text-smallText border border-solid border-secondaryAccent
+                        py-2 px-4 rounded-[8px] hover:bg-secondaryAccent
+                        hover:text-primaryAccent ease-in duration-300 drop-shadow">
                             Movies
                         </button>
                         <button onClick={() => setSelectTab('series')}
-                                className="text-newDarkAccent border border-solid border-newSmallText
-                        py-2 px-4 rounded-[8px] hover:bg-newDarkAccent hover:border-newNeonAccent
-                        hover:text-white ease-in duration-300 drop-shadow">
+                                className="text-smallText border border-solid border-secondaryAccent
+                        py-2 px-4 rounded-[8px] hover:bg-secondaryAccent
+                        hover:text-primaryAccent ease-in duration-300 drop-shadow">
                             Series
                         </button>
                     </div>
@@ -78,16 +78,10 @@ const Hobbies = () => {
                                 <figure>
                                     <img className="rounded-[8px] w-1/2 h-1/2 " src={hobbyData.imgUrl} alt=""/>
                                 </figure>
-                                <div className="w-full h-full bg-newDarkAccent bg-opacity-40 absolute
+                                <div className="w-full h-full bg-headingText bg-opacity-40 absolute
                                 top-0 left-0 z-[5] hidden group-hover:block">
                                     <div className="w-full h-full flex items-center justify-center">
-                                        <button
-                                            onClick={()=> showModalHandler(hobbyData.id)}
-                                            className="text-white bg-newSmallText
-                                        hover:bg-newDarkAccent py-2 px-4 rounded-[8px] font-[500]
-                                        ease-in duration-200">
-                                            View Details
-                                        </button>
+
                                     </div>
 
                                 </div>

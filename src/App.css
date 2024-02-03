@@ -54,7 +54,8 @@ section {
   top: 0;
   left: 0;
   background: #c1ebfd;
-  z-index: 99;
+  box-shadow: 3px 3px 3px 3px rgba(65, 93, 136, 0.73);
+  z-index: 10;
 }
 
 @media only screen and (max-width: 768px) {
@@ -75,7 +76,7 @@ section {
     top: 0;
     right: 0;
     z-index: 200;
-    background: rgba(131, 117, 243, 0.54);
+    background: #c1ebfd;
     flex-direction: column;
     line-height: 30px;
     justify-content: center;
@@ -84,19 +85,4 @@ section {
   .display_menu {
     display: block;
   }
-}
-
-/*===========================FOR ABOUT PAGE============================*/
-/*#about {*/
-/*  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),*/
-/*  url(./assets/images/hitech.jpg);*/
-/*  background-size: cover;*/
-/*}*/
-/*=====================================================================*/
-
-/*===========================FOR CONTACT PAGE==========================*/
-#contact {
-  object-fit: cover;
-  top: 0;
-  left: 0;
 }

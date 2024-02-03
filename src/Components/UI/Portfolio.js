@@ -48,19 +48,19 @@ const Portfolio = () => {
 
                     <div className="flex gap-3">
                         <button onClick={() => setSelectTab('all')}
-                                className="text-newDarkAccent border border-solid border-newSmallText
-                        py-2 px-4 rounded-[8px] hover:bg-newDarkAccent hover:border-newNeonAccent
-                        hover:text-white ease-in duration-300 drop-shadow">
+                                className="text-smallText border border-solid border-secondaryAccent
+                        py-2 px-4 rounded-[8px] hover:bg-secondaryAccent
+                        hover:text-primaryAccent ease-in duration-300 drop-shadow">
                             All</button>
                         <button onClick={() => setSelectTab('web-design')}
-                                className="text-newDarkAccent border border-solid border-newSmallText
-                        py-2 px-4 rounded-[8px] hover:bg-newDarkAccent hover:border-newNeonAccent
-                        hover:text-white ease-in duration-300 drop-shadow">
+                                className="text-smallText border border-solid border-secondaryAccent
+                        py-2 px-4 rounded-[8px] hover:bg-secondaryAccent
+                        hover:text-primaryAccent ease-in duration-300 drop-shadow">
                             Web Design</button>
                         <button onClick={() => setSelectTab('ux-design')}
-                                className="text-newDarkAccent border border-solid border-newSmallText
-                        py-2 px-4 rounded-[8px] hover:bg-newDarkAccent hover:border-newNeonAccent
-                        hover:text-white ease-in duration-300 drop-shadow">
+                                className="text-smallText border border-solid border-secondaryAccent
+                        py-2 px-4 rounded-[8px] hover:bg-secondaryAccent
+                        hover:text-primaryAccent ease-in duration-300 drop-shadow">
                             App Development</button>
                     </div>
                 </div>
@@ -74,13 +74,13 @@ const Portfolio = () => {
                                 <figure>
                                     <img className="rounded-[8px] " src={portfolio.imgUrl} alt=""/>
                                 </figure>
-                                <div className="w-full h-full bg-newDarkAccent bg-opacity-40 absolute
+                                <div className="w-full h-full bg-headingText bg-opacity-40 absolute
                                 top-0 left-0 z-[5] hidden group-hover:block">
                                     <div className="w-full h-full flex items-center justify-center">
                                         <button
                                             onClick={()=> showModalHandler(portfolio.id)}
-                                            className="text-white bg-newSmallText
-                                        hover:bg-newDarkAccent py-2 px-4 rounded-[8px] font-[500]
+                                            className="text-primaryAccent bg-smallText
+                                        hover:bg-headingText py-2 px-4 rounded-[8px] font-[500]
                                         ease-in duration-200">
                                             View Details
                                         </button>

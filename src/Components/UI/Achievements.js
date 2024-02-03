@@ -17,7 +17,7 @@ const Achievements = () => {
             <div className="container">
                 <div className="flex items-center justify-between flex-wrap">
                     <div className="mb-7 sm:mb-0">
-                        <h3 className="text-newPrimaryColor text-[2rem] font-[700] drop-shadow">
+                        <h3 className="text-headingText text-[2rem] font-[700] drop-shadow">
                             My Achievements
                         </h3>
                     </div>

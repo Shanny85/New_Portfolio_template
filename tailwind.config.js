@@ -5,9 +5,14 @@ module.exports = {
     extend: {
       colors: {
         headingText: "#022D36",
-        smallText: "#d7d5d2",
+        smallText: "#6b6969",
         secondaryAccent: "#1497D4",
         primaryAccent: "#FFD301",
+        youtubeColor: "#FF0000",
+        pinterestColor: "#BD081C",
+        linkedInColor: "#0A66C2",
+        githubColor: "#171515",
+        backCol: "#b4b4b4",
       }
     },
   },

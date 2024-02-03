@@ -55,7 +55,6 @@ const Header = () => {
                             <li><a onClick={handleClick}
                                    className="flex items-center gap-2 text-headingText font-[600]
                                    py-2 px-4 rounded-[8px] max-h-[40px]
-                                   hover:bg-newDarkAccent
                                    hover:text-secondaryAccent hover:border-newNeonAccent
                                    hover:font-[600] ease-in duration-300"
                                    href="#about">About</a>
@@ -63,7 +62,6 @@ const Header = () => {
                             <li><a onClick={handleClick}
                                    className="flex items-center gap-2 text-headingText font-[600]
                                    py-2 px-4 rounded-[8px] max-h-[40px]
-                                   hover:bg-newDarkAccent
                                    hover:text-secondaryAccent hover:border-newNeonAccent
                                    hover:font-[600] ease-in duration-300"
                                    href="#portfolio">Projects</a>
@@ -71,7 +69,6 @@ const Header = () => {
                             <li><a onClick={handleClick}
                                    className="flex items-center gap-2 text-headingText font-[600]
                                    py-2 px-4 rounded-[8px] max-h-[40px]
-                                   hover:bg-newDarkAccent
                                    hover:text-secondaryAccent hover:border-newNeonAccent
                                    hover:font-[600] ease-in duration-300"
                                    href="#achievements">Achievements</a>
@@ -79,7 +76,6 @@ const Header = () => {
                             <li><a onClick={handleClick}
                                    className="flex items-center gap-2 text-headingText font-[600]
                                    py-2 px-4 rounded-[8px] max-h-[40px]
-                                   hover:bg-newDarkAccent
                                    hover:text-secondaryAccent hover:border-newNeonAccent
                                    hover:font-[600] ease-in duration-300"
                                    href="#hobbies">Hobbies</a>
@@ -87,7 +83,6 @@ const Header = () => {
                             <li><a onClick={handleClick}
                                    className="flex items-center gap-2 text-headingText font-[600]
                                    py-2 px-4 rounded-[8px] max-h-[40px]
-                                   hover:bg-newDarkAccent
                                    hover:text-secondaryAccent hover:border-newNeonAccent
                                    hover:font-[600] ease-in duration-300"
                                    href="#contact">Contact</a>
@@ -102,10 +97,9 @@ const Header = () => {
                             <button
                                 className="flex items-center gap-2 text-headingText font-[600]
                                 border border-solid border-primaryAccent py-2 px-4 rounded-[8px] max-h-[40px]
-                                hover:bg-headingText
+                                hover:bg-secondaryAccent
                                 hover:text-primaryAccent
                                 hover:font-[600] ease-in duration-300">
-                                <i className="ri-chat-1-line"></i>
                                 Let's Chat
                             </button>
                         </a>
