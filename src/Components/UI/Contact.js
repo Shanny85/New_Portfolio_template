@@ -4,10 +4,10 @@ const Contact = () => {
     return (
         <section id="contact" className="mt-0">
             <div className="container">
-                <h2 data-aos="fade-down" data-aos-duration="1500"
+                <h2 data-aos="fade-right" data-aos-duration="1500"
                     className="pt-0 text-headingText flex items-center justify-center
                                text-[2.5rem] font-[700] mt-30 mb-4">
-                    Reach Out
+                    Lets Have a Chat
                 </h2>
                 <div className="flex flex-col lg:flex-row
                                 items-center justify-evenly
