@@ -31,9 +31,9 @@ const Achievements = () => {
                                 data-aos="fade-zoom-in" data-aos-delay="50" data-aos-duration="1000"
                                 className="group max-w-full sm:w-[31.8%] lg:w-[32.2%] relative z-[1]">
                                 <figure>
-                                    <img className="w-1/4 h-1/4 " src={achieved.imgUrl} alt=""/>
+                                    <img className="w-1/4 h-1/4 sm:translate-x-1/2 translate-x-1/2 " src={achieved.imgUrl} alt=""/>
                                 </figure>
-                                <div className="w-full h-full absolute top-0 left-0">
+                                <div className="w-full h-full pl-20 absolute top-0 left-0">
                                     <div className="w-full h-full flex items-center justify-center">
                                         <h2>
                                             {achieved.title}

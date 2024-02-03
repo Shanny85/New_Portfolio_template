@@ -68,7 +68,7 @@ const Hobbies = () => {
                         </button>
                     </div>
                 </div>
-                <div className="flex items-center gap-4 flex-wrap mt-12">
+                <div className="flex sm:items-center items-center gap-3 flex-wrap mt-12">
                     {
                         hobbyData?.slice(0, nextItems)?.map((hobbyData, index) => (
                             <div
@@ -76,15 +76,15 @@ const Hobbies = () => {
                                 data-aos="fade-zoom-in" data-aos-delay="50" data-aos-duration="1000"
                                 className="group max-w-full sm:w-[31.8%] lg:w-[32.2%] relative z-[1]">
                                 <figure>
-                                    <img className="rounded-[8px] w-1/2 h-1/2 " src={hobbyData.imgUrl} alt=""/>
+                                    <img className="flex sm:translate-x-1/2 translate-x-1/2 rounded-[8px] w-1/2 h-1/2 " src={hobbyData.imgUrl} alt=""/>
                                 </figure>
-                                <div className="w-full h-full bg-headingText bg-opacity-40 absolute
-                                top-0 left-0 z-[5] hidden group-hover:block">
-                                    <div className="w-full h-full flex items-center justify-center">
+                                {/*<div className="w-full h-full bg-headingText bg-opacity-40 absolute*/}
+                                {/*top-0 left-0 z-[5] hidden group-hover:block">*/}
+                                {/*    /!*<div className="w-full h-full flex items-center justify-center">*!/*/}
 
-                                    </div>
+                                {/*    /!*</div>*!/*/}
 
-                                </div>
+                                {/*</div>*/}
                             </div>
                         ))
                     }

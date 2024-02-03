@@ -14,7 +14,7 @@ const Footer = () => {
                             text-center">
                                 <a
                                    href="#github"
-                                   className="text-headingText 
+                                   className="text-headingText
                                    text-[35px] font-[500]
                                    rounded-md py-1,5 px-2 hover:text-githubColor drop-shadow">
                                     <i className="ri-github-line"></i>
