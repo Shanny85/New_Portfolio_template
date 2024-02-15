@@ -25,13 +25,13 @@ const Hero = () => {
                     {/*Hero Content Left Side */}
                     <div className="w-full md:basis-1/2">
                         <h5 data-aos="fade-right" data-aos-duration="1500"
-                            className="text-headingText font-[600] text-[16px] drop-shadow">
+                            className="text-white font-[600] text-[16px]">
                             Hi and Welcome
                         </h5>
                         <h1 data-aos="fade-up" data-aos-duration="1500"
-                            className="mt-5 text-headingText font-[800] text-[1.8rem] leading-[35px]
+                            className="mt-5 text-white font-[800] text-[1.8rem] leading-[35px]
                             sm:text-[40px] sm:leading-[46px] drop-shadow">
-                            I'm <span className="text-secondaryAccent">S</span>ibonelo <span className="text-primaryAccent">M</span>sabala <br/>
+                            I'm Sibonelo Msabala
                             Software Developer
                         </h1>
                         <p data-aos="fade-left"
@@ -65,7 +65,7 @@ const Hero = () => {
                                 md:gap-0 items-center
                                 md:text-center md:justify-evenly">
                     <div className="mb-10">
-                        <h2 className="text-secondaryAccent font-[700] text-[28px] drop-shadow">
+                        <h2 className="text-blueCol font-[700] text-[28px]">
                             <CountUp start={0} end={50} suffix=' +' />
                         </h2>
                         <h4 className="text-smallText font-[700] text-[18px] drop-shadow">
@@ -73,7 +73,7 @@ const Hero = () => {
                         </h4>
                     </div>
                     <div className="mb-10">
-                        <h2 className="text-secondaryAccent font-[700] text-[32px] drop-shadow">
+                        <h2 className="text-blueCol font-[700] text-[32px]">
                             <CountUp start={0} end={10} suffix=' +' />
                         </h2>
                         <h4 className="text-smallText font-[700] text-[18px] drop-shadow">
@@ -81,7 +81,7 @@ const Hero = () => {
                         </h4>
                     </div>
                     <div className="mb-10">
-                        <h2 className="text-secondaryAccent font-[700] text-[32px] drop-shadow">
+                        <h2 className="text-blueCol font-[700] text-[32px]">
                             <CountUp start={0} end={25} suffix=' +' />
                         </h2>
                         <h4 className="text-smallText font-[700] text-[18px] drop-shadow">
@@ -89,7 +89,7 @@ const Hero = () => {
                         </h4>
                     </div>
                     <div className="mb-10">
-                        <h2 className="text-secondaryAccent font-[700] text-[32px] drop-shadow">
+                        <h2 className="text-blueCol font-[700] text-[32px]">
                             <CountUp start={0} end={6} suffix=' +' />
                         </h2>
                         <h4 className="text-smallText font-[700] text-[18px] drop-shadow">
@@ -97,7 +97,7 @@ const Hero = () => {
                         </h4>
                     </div>
                     <div className="mb-10">
-                        <h2 className="text-secondaryAccent font-[700] text-[32px] drop-shadow">
+                        <h2 className="text-blueCol font-[700] text-[32px]">
                             <CountUp start={0} end={100} suffix=' %' />
                         </h2>
                         <h4 className="text-smallText font-[700] text-[18px] drop-shadow">

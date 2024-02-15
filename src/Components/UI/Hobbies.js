@@ -50,21 +50,21 @@ const Hobbies = () => {
 
                     <div className="flex gap-3">
                         <button onClick={() => setSelectTab('books')}
-                                className="text-smallText border border-solid border-secondaryAccent
-                        py-2 px-4 rounded-[8px] hover:bg-secondaryAccent
-                        hover:text-primaryAccent ease-in duration-300 drop-shadow">
+                                className="text-smallText border border-solid border-blueCol
+                        py-2 px-4 rounded-[8px] hover:bg-blueCol
+                        hover:text-white ease-in duration-300 drop-shadow font-bold">
                             Books
                         </button>
                         <button onClick={() => setSelectTab('movies')}
-                                className="text-smallText border border-solid border-secondaryAccent
-                        py-2 px-4 rounded-[8px] hover:bg-secondaryAccent
-                        hover:text-primaryAccent ease-in duration-300 drop-shadow">
+                                className="text-smallText border border-solid border-blueCol
+                        py-2 px-4 rounded-[8px] hover:bg-blueCol
+                        hover:text-white ease-in duration-300 drop-shadow font-bold">
                             Movies
                         </button>
                         <button onClick={() => setSelectTab('series')}
-                                className="text-smallText border border-solid border-secondaryAccent
-                        py-2 px-4 rounded-[8px] hover:bg-secondaryAccent
-                        hover:text-primaryAccent ease-in duration-300 drop-shadow">
+                                className="text-smallText border border-solid border-blueCol
+                        py-2 px-4 rounded-[8px] hover:bg-blueCol
+                        hover:text-white ease-in duration-300 drop-shadow font-bold">
                             Series
                         </button>
                     </div>
@@ -80,7 +80,7 @@ const Hobbies = () => {
                                     <img className="flex sm:translate-x-1/2 translate-x-1/2 rounded-[8px] w-1/2 h-1/2 " src={hobbyData.imgUrl} alt=""/>
                                 </figure>
                                 {/*<div className="w-full h-full bg-headingText bg-opacity-40 absolute*/}
-                                {/*top-0 left-0 z-[5] hidden group-hover:block">*/}
+                                {/*top-0 left-0 z-[5] hidden group-hover:block>*/}
                                 {/*    /!*<div className="w-full h-full flex items-center justify-center">*!/*/}
 
                                 {/*    /!*</div>*!/*/}
@@ -90,18 +90,18 @@ const Hobbies = () => {
                         ))
                     }
                 </div>
-                <div className="text-center mt-6">
-                    {
-                        nextItems < hobbyData.length && data.length > 6 &&
-                        <button onClick={viewMoreHandler}
-                                className="text-primaryAccent bg-headingText
-                                           hover:bg-newDarkAccent py-2 px-4 rounded-[8px] font-[500]
-                                           ease-in duration-200">
-                            View More
-                        </button>
-                    }
+                {/*<div className="text-center mt-6">*/}
+                {/*    {*/}
+                {/*        nextItems < hobbyData.length && data.length > 6 &&*/}
+                {/*        <button onClick={showModalHandler}*/}
+                {/*                className="text-primaryAccent bg-headingText*/}
+                {/*                           hover:bg-newDarkAccent py-2 px-4 rounded-[8px] font-[500]*/}
+                {/*                           ease-in duration-200">*/}
+                {/*            View More*/}
+                {/*        </button>*/}
+                {/*    }*/}
 
-                </div>
+                {/*</div>*/}
             </div>
             {
                 showModal && <Modal setShowModal={setShowModal} activeID={activeID}/>

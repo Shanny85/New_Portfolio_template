@@ -50,19 +50,19 @@ const Portfolio = () => {
 
                     <div className="flex gap-3">
                         <button onClick={() => setSelectTab('all')}
-                                className="text-smallText border border-solid border-secondaryAccent
-                        py-2 px-4 rounded-[8px] hover:bg-secondaryAccent
-                        hover:text-primaryAccent ease-in duration-300 drop-shadow">
+                                className="text-smallText border border-solid border-blueCol
+                        py-2 px-4 rounded-[8px] hover:bg-blueCol
+                        hover:text-white ease-in duration-300 drop-shadow font-bold">
                             All</button>
                         <button onClick={() => setSelectTab('web-design')}
-                                className="text-smallText border border-solid border-secondaryAccent
-                        py-2 px-4 rounded-[8px] hover:bg-secondaryAccent
-                        hover:text-primaryAccent ease-in duration-300 drop-shadow">
+                                className="text-smallText border border-solid border-blueCol
+                        py-2 px-4 rounded-[8px] hover:bg-blueCol
+                        hover:text-white ease-in duration-300 drop-shadow font-bold">
                             Web Design</button>
                         <button onClick={() => setSelectTab('ux-design')}
-                                className="text-smallText border border-solid border-secondaryAccent
-                        py-2 px-4 rounded-[8px] hover:bg-secondaryAccent
-                        hover:text-primaryAccent ease-in duration-300 drop-shadow">
+                                className="text-smallText border border-solid border-blueCol
+                        py-2 px-4 rounded-[8px] hover:bg-blueCol
+                        hover:text-white ease-in duration-300 drop-shadow font-bold">
                             App Development</button>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ const Portfolio = () => {
                                         <button
                                             onClick={()=> showModalHandler(portfolio.id)}
                                             className="text-primaryAccent bg-smallText
-                                        hover:bg-headingText py-2 px-4 rounded-[8px] font-[500]
+                                        hover:bg-blueCol hover:text-headingText py-2 px-4 rounded-[8px] font-[500]
                                         ease-in duration-200">
                                             View Details
                                         </button>
@@ -97,8 +97,9 @@ const Portfolio = () => {
                     {
                         nextItems < portfolios.length && data.length > 6 &&
                         <button onClick={viewMoreHandler}
-                                className="text-primaryAccent bg-headingText
-                                           hover:bg-newDarkAccent py-2 px-4 rounded-[8px] font-[500]
+                                className="text-primaryAccent bg-blueCol
+                                           hover:text-white
+                                           hover:font-bold py-2 px-4 rounded-[8px] font-[500]
                                            ease-in duration-200">
                             View More
                         </button>

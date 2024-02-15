@@ -43,7 +43,7 @@ const Header = () => {
                     {/*Logo*/}
                     <div className="flex items-center gap-[10px]">
                         <div className="leading-[20px]">
-                            <h2 className="text-xl text-headingText font-[700]">
+                            <h2 className="text-xl text-white font-[700]">
                                 Sibonelo
                             </h2>
                         </div>
@@ -55,42 +55,42 @@ const Header = () => {
                         <ul className="flex items-center gap-10">
                             <li><a onClick={handleClick}
 
-                                   className="flex items-center gap-2 text-headingText font-[600]
+                                   className="flex items-center gap-2 text-blueCol font-[600]
                                     py-2 px-4 rounded-[8px] max-h-[40px]
-                                    hover:text-secondaryAccent
-                                    focus:text-smallText focus:outline-none hover:font-[600] ease-in duration-300"
+                                    hover:text-white
+                                    focus:text-white focus:outline-none hover:font-[600] ease-in duration-300"
                                    href="#about">About</a>
                             </li>
                             <li><a onClick={handleClick}
-                                   className="flex items-center gap-2 text-headingText font-[600]
+                                   className="flex items-center gap-2 text-blueCol font-[600]
                                     py-2 px-4 rounded-[8px] max-h-[40px]
-                                    hover:text-secondaryAccent
-                                    focus:text-smallText focus:outline-none hover:font-[600] ease-in duration-300"
+                                    hover:text-white
+                                    focus:text-white focus:outline-none hover:font-[600] ease-in duration-300"
                                    href="#portfolio">Projects</a>
                             </li>
                             <li><a onClick={handleClick}
-                                   className="flex items-center gap-2 text-headingText font-[600]
+                                   className="flex items-center gap-2 text-blueCol font-[600]
                                     py-2 px-4 rounded-[8px] max-h-[40px]
-                                    hover:text-secondaryAccent
-                                    focus:text-smallText focus:outline-none hover:font-[600] ease-in duration-300"
+                                    hover:text-white
+                                    focus:text-white focus:outline-none hover:font-[600] ease-in duration-300"
                                    href="#achievements">Achievements</a>
                             </li>
                             <li>
                                 <a
                                     onClick={handleClick}
-                                    className="flex items-center gap-2 text-headingText font-[600]
+                                    className="flex items-center gap-2 text-blueCol font-[600]
                                     py-2 px-4 rounded-[8px] max-h-[40px]
-                                    hover:text-secondaryAccent
-                                    focus:text-smallText focus:outline-none hover:font-[600] ease-in duration-300"
+                                    hover:text-white
+                                    focus:text-white focus:outline-none hover:font-[600] ease-in duration-300"
                                     href="#hobbies">
                                     Hobbies
                                 </a>
                             </li>
                             <li><a onClick={handleClick}
-                                   className="flex items-center gap-2 text-headingText font-[600]
+                                   className="flex items-center gap-2 text-blueCol font-[600]
                                     py-2 px-4 rounded-[8px] max-h-[40px]
-                                    hover:text-secondaryAccent
-                                    focus:text-smallText focus:outline-none hover:font-[600] ease-in duration-300"
+                                    hover:text-white
+                                    focus:text-white focus:outline-none hover:font-[600] ease-in duration-300"
                                    href="#contact">Contact</a>
                             </li>
                         </ul>
@@ -101,15 +101,15 @@ const Header = () => {
                     <div className="flex items-center gap-4">
                         <a href="#contact">
                             <button
-                                className="flex items-center gap-2 text-headingText font-[600]
-                                border border-solid border-primaryAccent py-2 px-4 rounded-[8px] max-h-[40px]
-                                hover:bg-secondaryAccent
-                                hover:text-primaryAccent
+                                className="flex items-center gap-2 text-blueCol font-[600]
+                                py-2 px-4 rounded-[8px] max-h-[40px]
+                                hover:bg-blueCol
+                                hover:text-white
                                 hover:font-[600] ease-in duration-300">
                                 Let's Chat
                             </button>
                         </a>
-                        <span onClick={menuSwitch} className="cursor-pointer text-2xl text-primaryAccent md:hidden">
+                        <span onClick={menuSwitch} className="cursor-pointer text-2xl text-white md:hidden">
                             <i className="ri-menu-line">
                             </i>
                         </span>

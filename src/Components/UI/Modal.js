@@ -5,7 +5,7 @@ const Modal = ({activeID, setShowModal}) => {
     const portfolio = portfolios.find(portfolio => portfolio.id === activeID)
 
     return(
-        <div className="w-11/12 md:w-full h-full fixed top-0 left-0 z-10 bg-secondaryAccent bg-opacity-40">
+        <div className="w-11/12 md:w-full h-full fixed top-0 left-0 z-10">
             <div className="max-w-[600px] h-[625px] sm:w-full absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px]
           transform -translate-x-1/2 -translate-y-1/2 p-5">
                 <div>

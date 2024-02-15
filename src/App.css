@@ -16,7 +16,7 @@ body {
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  background: linear-gradient(45deg, #87CEEB, #FFFFFF, #87CEEB);
+  background: linear-gradient(45deg, #ffffff, #bddffc, #ffffff);
   background-size: 300% 300%;
   animation: color 12s ease-in-out infinite;
 }
@@ -53,12 +53,12 @@ section {
   position: sticky;
   top: 0;
   left: 0;
-  background: #c1ebfd;
+  background: #7A8898;
   box-shadow: 3px 3px 3px 3px rgba(65, 93, 136, 0.73);
   z-index: 10;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h5 {
   text-shadow: 1px 2px 3px #000000;
 }
 

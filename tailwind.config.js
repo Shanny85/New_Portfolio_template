@@ -4,15 +4,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        headingText: "#022D36",
+        headingText: "#ffffff",
         smallText: "#6b6969",
-        secondaryAccent: "#1497D4",
-        primaryAccent: "#FFD301",
+        secondaryAccent: "#4ffa0c",
+        primaryAccent: "#BBE2EC",
         youtubeColor: "#FF0000",
-        pinterestColor: "#BD081C",
+        mediumColor: "#000000",
         linkedInColor: "#0A66C2",
         githubColor: "#171515",
-        backCol: "#b4b4b4",
+        backCol: "#FFF6E9",
+        blueCol: "#3fbcff"
       }
     },
   },

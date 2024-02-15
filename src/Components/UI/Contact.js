@@ -15,7 +15,7 @@ const Contact = () => {
                                 grow relative">
                     <div className="w-full mt-8 md:mt-0 md:w-1/2 h-auto sm:h-[450px]
                                     lg:flex items-center
-                                    bg-secondaryAccent
+                                    bg-black
                                     px-4 lg:px-8 py-4
                                     bg-opacity-40">
                         <form className="w-full pt-3">
@@ -52,10 +52,10 @@ const Contact = () => {
                                    className="ri-mail-send-line text-white"></i>
                                 <button className="w-full p-2 focus-outline-none rounded-[5px]
                                     bg-smallText font-[600]
-                                    text-headingText
+                                    text-blueCol
                                     text-center ease-linear duration-150
-                                    hover:text-primaryAccent
-                                    hover:bg-secondaryAccent">
+                                    hover:text-white
+                                    hover:bg-blueCol">
 
                                     Submit Message
                                 </button>

@@ -33,23 +33,15 @@ const Footer = () => {
                         <span className="w-[35px] h-[35px] p-1 cursor-pointer
                             text-center">
                                 <a
-                                   href="#pintrest"
+                                   href="#medium"
                                    className="text-headingText
                                    text-[35px] font-[500]
-                                   rounded-md py-1,5 px-2 hover:text-pinterestColor drop-shadow">
-                                    <i className="ri-pinterest-fill"></i>
+                                   rounded-md py-1,5 px-2 hover:text-black drop-shadow">
+                                    <i className="ri-medium-fill"></i>
                                 </a>
+
                         </span>
-                        <span className="w-[35px] h-[35px] p-1 cursor-pointer
-                            text-center">
-                                <a
-                                   href="#youtube"
-                                   className="text-headingText
-                                   text-[35px] font-[500]
-                                   rounded-md py-1,5 px-2 hover:text-youtubeColor drop-shadow">
-                                    <i className="ri-youtube-fill"></i>
-                                </a>
-                        </span>
+
                     </div>
                 </div>
             </div>

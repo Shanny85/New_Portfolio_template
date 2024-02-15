@@ -50,8 +50,10 @@ const Achievements = () => {
                     {
                         nextItems < achieved.length && data.length > 6 &&
                         <button onClick={viewMoreHandler}
-                                className="text-primaryAccent bg-headingText
-                                           hover:bg-newDarkAccent py-2 px-4 rounded-[8px] font-[500]
+                                className="text-primaryAccent bg-blueCol
+
+                                           hover:text-headingText
+                                           hover:font-bold py-2 px-4 rounded-[8px] font-[500]
                                            ease-in duration-200">
                             View More
                         </button>
